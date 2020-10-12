@@ -99,3 +99,25 @@ img {
   margin: auto;
   margin-top: 1rem;
 }
+
+@media only screen and (min-width: 769px) {
+  body {
+    background-color: lightblue;
+  }
+
+  .primary-content-1c__first {
+    padding: 2rem 10rem;
+  }
+  .primary-content-2c-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .primary-content-2c__second-content {
+    line-height: 1.9;
+    font-size: 1.1rem;
+    opacity: 0.9;
+    letter-spacing: 1.2px;
+  }
+}
