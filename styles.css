@@ -8,6 +8,9 @@ body {
   font-weight: 370;
   /* height: 100%; */
 }
+ul {
+  list-style: none;
+}
 a {
   color: currentColor;
   background-color: transparent;
@@ -50,6 +53,10 @@ img {
   font-size: 1.5rem;
 }
 
+.nav-bar__flex-2c,
+.nav-bar__flex-3c {
+  display: none;
+}
 /* =========== Main =========== */
 
 .primary-content-1c {
@@ -100,22 +107,84 @@ img {
   margin-top: 1rem;
 }
 
+.hideCSS {
+  display: none;
+}
+
 @media only screen and (min-width: 769px) {
-  body {
-    background-color: lightblue;
+  header {
+    padding: 1.1rem 2rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: currentColor;
+  }
+  .nav-bar__toggleBtn {
+    display: none;
   }
 
-  .primary-content-1c__first {
-    padding: 2rem 10rem;
+  .nav-bar__flex-2c,
+  .nav-bar__flex-3c {
+    display: block;
+  }
+
+  .nav-bar-wrapper {
+    width: 100%;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    align-items: center;
+  }
+
+  .signin {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 20px;
+    padding: 3px 11px;
+    transition: all 0.2s ease;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+  .joinNow {
+    color: #fff;
+    background: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 3px 11px;
+    transition: all 0.2s ease;
+    margin-left: 1rem;
+    font-size: 0.9rem;
+  }
+
+  .flex-3c {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .flex-3c a {
+    text-decoration: none;
+    text-transform: capitalize;
+    margin-right: 1rem;
+  }
+  .nav-bar-menu {
+    display: flex;
+  }
+  .nav-bar-menu a {
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 1rem;
+  }
+  .primary-content-2c {
+    padding: 0 2.4rem;
   }
   .primary-content-2c-box {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 1.5rem;
   }
   .primary-content-2c__second-content {
-    line-height: 1.9;
+    line-height: 1.75;
     font-size: 1.1rem;
     opacity: 0.9;
     letter-spacing: 1.2px;
