@@ -133,7 +133,7 @@ img {
 
 .primary-content-4c-second .second-summary {
   color: #960048;
-  font-size: 24px;
+  font-size: 21px;
   opacity: 0.9;
   margin-bottom: 32px;
 }
@@ -225,5 +225,44 @@ img {
     font-size: 1.1rem;
     opacity: 0.9;
     letter-spacing: 1.2px;
+  }
+  .primary-content-3c {
+    color: #960048;
+    font-size: 50px;
+    font-weight: 700;
+    padding: 32px 16px;
+    letter-spacing: 1px;
+  }
+
+  .primary-content-4c {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .primary-content-4c-first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .primary-content-4c-first img {
+    max-width: 100%;
+    height: auto;
+    padding-left: 260px;
+  }
+  .primary-content-4c-second h1 {
+    color: #960048;
+    font-size: 48px;
+    margin-bottom: 24px;
+    letter-spacing: 7px;
+  }
+  .primary-content-4c-second {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 110px;
+  }
+}
+@media only screen and (min-width: 1460px) {
+  main {
+    padding: 0 14rem;
   }
 }
