@@ -76,6 +76,7 @@ img {
   text-align: center;
   line-height: 1.9;
 }
+
 .primary-content-2c {
   padding-bottom: 32px;
   background-color: #1f3932;
@@ -126,16 +127,17 @@ img {
 }
 .primary-content-4c-second h1 {
   color: #960048;
-  font-size: 28px;
+  font-size: 30px;
   margin-bottom: 24px;
-  letter-spacing: 3px;
+  letter-spacing: 4px;
 }
 
 .primary-content-4c-second .second-summary {
   color: #960048;
-  font-size: 21px;
+  font-size: 25px;
   opacity: 0.9;
   margin-bottom: 32px;
+  letter-spacing: 1px;
 }
 .primary-content-4c-second .explore-fall-flavors {
   border: 1px solid black;
