@@ -39,6 +39,12 @@ img {
 }
 
 /* =========== Nav =========== */
+.hideCSS {
+  display: none;
+}
+.text-center {
+  text-align: center;
+}
 .burger-menu {
   opacity: 0.4;
 }
@@ -58,10 +64,10 @@ img {
   display: none;
 }
 /* =========== Main =========== */
-
-.primary-content-1c {
+.content-padding-bottom {
   padding-bottom: 32px;
 }
+
 .primary-content-1c__first {
   background-color: #d4e9e2;
   color: #1e3932;
@@ -107,8 +113,39 @@ img {
   margin-top: 1rem;
 }
 
-.hideCSS {
-  display: none;
+.primary-content-3c {
+  color: #960048;
+  font-size: 28px;
+  font-weight: 700;
+  padding: 32px 16px;
+  letter-spacing: 1px;
+}
+
+.primary-content-4c-second {
+  padding: 32px 16px;
+}
+.primary-content-4c-second h1 {
+  color: #960048;
+  font-size: 28px;
+  margin-bottom: 24px;
+  letter-spacing: 3px;
+}
+
+.primary-content-4c-second .second-summary {
+  color: #960048;
+  font-size: 24px;
+  opacity: 0.9;
+  margin-bottom: 32px;
+}
+.primary-content-4c-second .explore-fall-flavors {
+  border: 1px solid black;
+  border-radius: 20px;
+  color: #1e3932;
+  padding: 7px 16px;
+  font-size: 14px;
+  line-height: 1.2;
+  text-decoration: none;
+  transition: all 0.2s ease;
 }
 
 @media only screen and (min-width: 769px) {
