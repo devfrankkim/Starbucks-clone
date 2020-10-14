@@ -297,6 +297,18 @@ img {
   .content-7c .uber {
     padding: 0 10rem;
   }
+  .content-8c .make-plan {
+    padding: 32px 0;
+  }
+  .content-8c .fuel {
+    padding-left: 0;
+  }
+  .content-8c .make-your-plan-to-vote {
+    padding: 0 11rem;
+  }
+  .content-padding-bottom .enjoy {
+    max-width: 60%;
+  }
 }
 @media only screen and (min-width: 1460px) {
   main {
