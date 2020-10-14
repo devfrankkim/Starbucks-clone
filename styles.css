@@ -157,7 +157,10 @@ img {
 .content-5c .second-summary {
   font-size: 24px;
 }
-
+.content-6c .primary-content-4c-second {
+  display: flex;
+  justify-content: center;
+}
 @media only screen and (min-width: 769px) {
   header {
     padding: 1.1rem 2rem;
