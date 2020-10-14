@@ -149,10 +149,11 @@ img {
   text-decoration: none;
   transition: all 0.2s ease;
 }
-.content-5c .primary-content-4c-second {
+.flex-center {
   display: flex;
   justify-content: center;
 }
+
 .content-5c .second-summary {
   font-size: 24px;
 }
@@ -275,6 +276,9 @@ img {
   }
   .content-5c .third-img {
     padding-left: 0;
+  }
+  .content-6c .fourth-img {
+    padding: 0;
   }
 }
 @media only screen and (min-width: 1460px) {
