@@ -161,7 +161,14 @@ img {
   display: flex;
   justify-content: center;
 }
+.content-7c__summary {
+  color: #1e3932;
+}
 @media only screen and (min-width: 769px) {
+  .content-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+  }
   header {
     padding: 1.1rem 2rem;
     font-weight: 700;
@@ -282,6 +289,13 @@ img {
   }
   .content-6c .fourth-img {
     padding: 0;
+  }
+
+  .content-6c__delicious {
+    padding-right: 400px;
+  }
+  .content-7c .uber {
+    padding: 0 10rem;
   }
 }
 @media only screen and (min-width: 1460px) {
