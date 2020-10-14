@@ -149,6 +149,13 @@ img {
   text-decoration: none;
   transition: all 0.2s ease;
 }
+.content-5c .primary-content-4c-second {
+  display: flex;
+  justify-content: center;
+}
+.content-5c .second-summary {
+  font-size: 24px;
+}
 
 @media only screen and (min-width: 769px) {
   header {
@@ -261,6 +268,13 @@ img {
     justify-content: center;
     align-items: center;
     padding-left: 110px;
+  }
+  .primary-content-4c.third {
+    display: flex;
+    flex-direction: row;
+  }
+  .content-5c .third-img {
+    padding-left: 0;
   }
 }
 @media only screen and (min-width: 1460px) {
